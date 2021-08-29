@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkcyan;
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+header span{
+   color: coral;
+}
+
+header #icon{
+    margin: 10px;
+}
+
+#container{
+    background-color: beige;
+    position: relative;
+    margin-top: 50px;
+    
+    
+}
+#container label{
+    position: relative;
+    display: flex;
+    
+}
+
+#container form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    width: 100%;
+    opacity: 50%;
+    margin-top: 20px;
+}
+
+#container form label{
+    position: relative;
+    top: 0;
+    left: 20px;
+    display: flex;
+    justify-content: start;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+#container form #task{
+    width: 800px;
+    height: 4vh;
+    margin: 8px;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+#task:focus{
+    border-color: rgb(0, 0, 0);
+}
+
+.addTask{
+    color: white;
+    width: 800px;
+    height: 5vh;
+    background-color: coral;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+
+.table{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+    font-size: 1.5em;
+    margin: 100px 8px;
+    border-collapse: collapse;
+    
+}
+
+.table th{
+    position: relative;
+    font-size: 20px;
+    border-bottom: 1px solid #999;
+    opacity: 50%;
+    padding: 0.5rem;
+    width: 400px;
+}
+button{
+    position: relative;
+    background: red;
+}
+#task-list{
+    background-color: rgba(128, 128, 128, 0.1);
+    padding: 1px 10px 1px 10px;
+    box-shadow:  3px, 3px, 3px, .2px #444;
+    font-size: 18px;
+    font-weight: 400;
+    color: #444;
+}
+
+
+
+
+

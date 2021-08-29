@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2cba605a78.js" crossorigin="anonymous"></script>
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  
+    <header class="header">
+        <h1><i id="icon" class="fas fa-bars"></i>My<span>ToDo</span>List</h1>
+    </header>
+    <container id="container">
+        <form id="Task-form">
+            <div class="form-group">
+                <label for="task">Task</label>
+                <input type="text" id="task" class="task-input">
+            </div>
+            <input type="submit" value="Add Task" class="addTask">
+        </form>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th id="one">What do I need to do? </th>
+                </tr>
+                
+            </thead>
+            <tbody id="task-list"></tbody>
+           
+        </table>
+        
+    </container>
+
+</body>
+
+<script src="app.js"></script>
+</html>
